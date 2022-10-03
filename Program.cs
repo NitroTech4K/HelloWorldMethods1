@@ -19,8 +19,6 @@ namespace HelloWorldMethods1
             enemiekillvalue = 50;
 
            ShowHUD();
-
-            Console.ReadKey(true);
            
             
             
@@ -30,15 +28,40 @@ namespace HelloWorldMethods1
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("");
-            Console.WriteLine("++++++++++++++++++");
+            Console.WriteLine("++++++++++++++++++++++++++++++++++++");
             Console.WriteLine("You just took damage from an enemie!");
-            Console.WriteLine("++++++++++++++++++");
+            Console.WriteLine("++++++++++++++++++++++++++++++++++++");
             Console.WriteLine("");
             Console.WriteLine("");
             TakeDamage();
             ShowHUD();
 
+            
+
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("++++++++++++++++++++++++");
+            Console.WriteLine("You attacked the enemie!");
+            Console.WriteLine("++++++++++++++++++++++++");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Attack();
+            ShowHUD();
+
+
             Console.ReadKey(true);
+
+
+
 
         }
 
