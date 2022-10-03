@@ -10,6 +10,7 @@ namespace HelloWorldMethods1
     {
         static int score;
         static int enemiekillvalue;
+
         static void Main(string[] args)
         {
             Console.WriteLine("Methods stuff");
@@ -32,14 +33,16 @@ namespace HelloWorldMethods1
             Console.WriteLine("----------");
             Console.WriteLine("");
             Console.WriteLine("");
-            Console.WriteLine("Eneime Kill Value: " + enemiekillvalue);
+
+            ShowHUD();
 
             Console.ReadKey(true);
         }
 
         static void ShowHUD()
         {
-            Console.WriteLine("Score:" + score);
+            Console.WriteLine("Boi");
+            Console.ReadKey(true);
         }
         
     }
