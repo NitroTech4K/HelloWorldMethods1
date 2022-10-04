@@ -36,7 +36,7 @@ namespace HelloWorldMethods1
             Console.WriteLine("++++++++++++++++++++++++++++++++++++");
             Console.WriteLine("");
             Console.WriteLine("");
-            TakeDamage();
+            TakeDamage(20);
             ShowHUD();
 
             
@@ -69,7 +69,7 @@ namespace HelloWorldMethods1
             Console.WriteLine("++++++++++++++++++++++++++++++++++++");
             Console.WriteLine("");
             Console.WriteLine("");
-            TakeDamage();
+            TakeDamage(50);
             ShowHUD();
 
             Console.WriteLine("");
@@ -106,9 +106,9 @@ namespace HelloWorldMethods1
             Console.ReadKey(true);
         }
 
-        static void TakeDamage()
+        static void TakeDamage(int damage)
         {
-            health = health - 20;
+            health = health - damage;
         }
 
 
