@@ -9,18 +9,18 @@ namespace HelloWorldMethods1
     internal class Program
     {
         static int score;
-        static int enemiehitvalue;
+        static int enemieHitValue;
         static int health;
-        static int enemiekillvalue;
-        static int killscoremultipler;
+        static int enemieKillValue;
+        static int killScoreMultipler;
         static void Main(string[] args)
         {
             Console.WriteLine("Methods stuff");
             health = 100;
             score = 0;
-            enemiehitvalue = 25;
-            enemiekillvalue = 50;
-            killscoremultipler = 1;
+            enemieHitValue = 25;
+            enemieKillValue = 50;
+            killScoreMultipler = 1;
            ShowHUD();
            
             
@@ -36,7 +36,7 @@ namespace HelloWorldMethods1
             Console.WriteLine("++++++++++++++++++++++++++++++++++++");
             Console.WriteLine("");
             Console.WriteLine("");
-            TakeDamage();
+            TakeDamage(20);
             ShowHUD();
 
             
@@ -69,7 +69,7 @@ namespace HelloWorldMethods1
             Console.WriteLine("++++++++++++++++++++++++++++++++++++");
             Console.WriteLine("");
             Console.WriteLine("");
-            TakeDamage();
+            TakeDamage(50);
             ShowHUD();
 
             Console.WriteLine("");
@@ -102,32 +102,26 @@ namespace HelloWorldMethods1
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("Health: " + health + "     Score: " + score);
-            Console.WriteLine("                Score Multiplier: " + killscoremultipler + "x");
+            Console.WriteLine("                Score Multiplier: " + killScoreMultipler + "x (Next Kill)");
             Console.ReadKey(true);
         }
 
-
-        static void Killmultiply()
+        static void TakeDamage(int damage)
         {
-            score = score * killscoremultipler;
-        }
-
-        static void TakeDamage()
-        {
-            health = health - 20;
+            health = health - damage;
         }
 
 
         static void Attack()
         {
-            score = score + enemiehitvalue;
+            score = score + enemieHitValue;
         }
 
         static void KillEnemie()
         {
-            killscoremultipler = killscoremultipler + 1;
+            score = score + (enemieKillValue * killScoreMultipler);
 
-            score = score + (enemiekillvalue * killscoremultipler);
+            killScoreMultipler = killScoreMultipler + 1;
         }
     }
 }

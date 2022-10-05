@@ -14,3 +14,11 @@ C:\Users\Cameron Traer\Gitprojects\HelloWorldMethods1\obj\Debug\HelloWorldMethod
 C:\Users\Cameron Traer\Gitprojects\HelloWorldMethods1\obj\Debug\HelloWorldMethods1.csproj.CoreCompileInputs.cache
 C:\Users\Cameron Traer\Gitprojects\HelloWorldMethods1\obj\Debug\HelloWorldMethods1.exe
 C:\Users\Cameron Traer\Gitprojects\HelloWorldMethods1\obj\Debug\HelloWorldMethods1.pdb
+C:\Github Projects\Visual Studio\HelloWorldMethods1\bin\Debug\HelloWorldMethods1.exe.config
+C:\Github Projects\Visual Studio\HelloWorldMethods1\bin\Debug\HelloWorldMethods1.exe
+C:\Github Projects\Visual Studio\HelloWorldMethods1\bin\Debug\HelloWorldMethods1.pdb
+C:\Github Projects\Visual Studio\HelloWorldMethods1\obj\Debug\HelloWorldMethods1.csproj.AssemblyReference.cache
+C:\Github Projects\Visual Studio\HelloWorldMethods1\obj\Debug\HelloWorldMethods1.csproj.SuggestedBindingRedirects.cache
+C:\Github Projects\Visual Studio\HelloWorldMethods1\obj\Debug\HelloWorldMethods1.csproj.CoreCompileInputs.cache
+C:\Github Projects\Visual Studio\HelloWorldMethods1\obj\Debug\HelloWorldMethods1.exe
+C:\Github Projects\Visual Studio\HelloWorldMethods1\obj\Debug\HelloWorldMethods1.pdb
